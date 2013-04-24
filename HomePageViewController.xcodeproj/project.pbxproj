@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBD750531703F49B00F50D3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD750521703F49B00F50D3B /* UIKit.framework */; };
+		FBD750551703F49B00F50D3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD750541703F49B00F50D3B /* Foundation.framework */; };
+		FBD750571703F49B00F50D3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD750561703F49B00F50D3B /* CoreGraphics.framework */; };
+		FBD7505D1703F49B00F50D3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FBD7505B1703F49B00F50D3B /* InfoPlist.strings */; };
+		FBD7505F1703F49B00F50D3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD7505E1703F49B00F50D3B /* main.m */; };
+		FBD750631703F49B00F50D3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBD750621703F49B00F50D3B /* AppDelegate.m */; };
+		FBD750651703F49B00F50D3B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD750641703F49B00F50D3B /* Default.png */; };
+		FBD750671703F49B00F50D3B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD750661703F49B00F50D3B /* Default@2x.png */; };
+		FBD750691703F49B00F50D3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBD750681703F49B00F50D3B /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBD7504F1703F49B00F50D3B /* HomePageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HomePageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD750521703F49B00F50D3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBD750541703F49B00F50D3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FBD750561703F49B00F50D3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FBD7505A1703F49B00F50D3B /* HomePageViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomePageViewController-Info.plist"; sourceTree = "<group>"; };
+		FBD7505C1703F49B00F50D3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FBD7505E1703F49B00F50D3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBD750601703F49B00F50D3B /* HomePageViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HomePageViewController-Prefix.pch"; sourceTree = "<group>"; };
+		FBD750611703F49B00F50D3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBD750621703F49B00F50D3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBD750641703F49B00F50D3B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FBD750661703F49B00F50D3B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FBD750681703F49B00F50D3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBD7504C1703F49B00F50D3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD750531703F49B00F50D3B /* UIKit.framework in Frameworks */,
+				FBD750551703F49B00F50D3B /* Foundation.framework in Frameworks */,
+				FBD750571703F49B00F50D3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBD750461703F49B00F50D3B = {
+			isa = PBXGroup;
+			children = (
+				FBD750581703F49B00F50D3B /* HomePageViewController */,
+				FBD750511703F49B00F50D3B /* Frameworks */,
+				FBD750501703F49B00F50D3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBD750501703F49B00F50D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBD7504F1703F49B00F50D3B /* HomePageViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBD750511703F49B00F50D3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBD750521703F49B00F50D3B /* UIKit.framework */,
+				FBD750541703F49B00F50D3B /* Foundation.framework */,
+				FBD750561703F49B00F50D3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBD750581703F49B00F50D3B /* HomePageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FBD750611703F49B00F50D3B /* AppDelegate.h */,
+				FBD750621703F49B00F50D3B /* AppDelegate.m */,
+				FBD750591703F49B00F50D3B /* Supporting Files */,
+			);
+			path = HomePageViewController;
+			sourceTree = "<group>";
+		};
+		FBD750591703F49B00F50D3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBD7505A1703F49B00F50D3B /* HomePageViewController-Info.plist */,
+				FBD7505B1703F49B00F50D3B /* InfoPlist.strings */,
+				FBD7505E1703F49B00F50D3B /* main.m */,
+				FBD750601703F49B00F50D3B /* HomePageViewController-Prefix.pch */,
+				FBD750641703F49B00F50D3B /* Default.png */,
+				FBD750661703F49B00F50D3B /* Default@2x.png */,
+				FBD750681703F49B00F50D3B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBD7504E1703F49B00F50D3B /* HomePageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBD7506C1703F49B00F50D3B /* Build configuration list for PBXNativeTarget "HomePageViewController" */;
+			buildPhases = (
+				FBD7504B1703F49B00F50D3B /* Sources */,
+				FBD7504C1703F49B00F50D3B /* Frameworks */,
+				FBD7504D1703F49B00F50D3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HomePageViewController;
+			productName = HomePageViewController;
+			productReference = FBD7504F1703F49B00F50D3B /* HomePageViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBD750471703F49B00F50D3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sskh;
+			};
+			buildConfigurationList = FBD7504A1703F49B00F50D3B /* Build configuration list for PBXProject "HomePageViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBD750461703F49B00F50D3B;
+			productRefGroup = FBD750501703F49B00F50D3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBD7504E1703F49B00F50D3B /* HomePageViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBD7504D1703F49B00F50D3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD7505D1703F49B00F50D3B /* InfoPlist.strings in Resources */,
+				FBD750651703F49B00F50D3B /* Default.png in Resources */,
+				FBD750671703F49B00F50D3B /* Default@2x.png in Resources */,
+				FBD750691703F49B00F50D3B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBD7504B1703F49B00F50D3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBD7505F1703F49B00F50D3B /* main.m in Sources */,
+				FBD750631703F49B00F50D3B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBD7505B1703F49B00F50D3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBD7505C1703F49B00F50D3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBD7506A1703F49B00F50D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBD7506B1703F49B00F50D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBD7506D1703F49B00F50D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomePageViewController/HomePageViewController-Prefix.pch";
+				INFOPLIST_FILE = "HomePageViewController/HomePageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FBD7506E1703F49B00F50D3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HomePageViewController/HomePageViewController-Prefix.pch";
+				INFOPLIST_FILE = "HomePageViewController/HomePageViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD7504A1703F49B00F50D3B /* Build configuration list for PBXProject "HomePageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD7506A1703F49B00F50D3B /* Debug */,
+				FBD7506B1703F49B00F50D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBD7506C1703F49B00F50D3B /* Build configuration list for PBXNativeTarget "HomePageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBD7506D1703F49B00F50D3B /* Debug */,
+				FBD7506E1703F49B00F50D3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBD750471703F49B00F50D3B /* Project object */;
+}
